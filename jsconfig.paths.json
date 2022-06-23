@@ -2,12 +2,10 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@api/*": ["src/api/*"],
-      "@components/*": ["src/components/*"],
-      "@i18n/*": ["src/i18n/*"],
-      "@assets/*": ["src/assets/*"],
       "@features/*": ["src/features/*"],
       "@root": ["src/"],
+      "@routes": ["src/routes/*"],
+      "@store": ["src/store/*"],
     }
   }
 }

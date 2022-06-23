@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
 
 const App = React.lazy(() => import('../App'))
 
+const suspense = (component) => (
+  <Suspense fallback='loading'>{component}</Suspense>
+)
+
 const CustomRoutes = () => (
   <BrowserRouter>
     <Routes>
-      <Route path='/' element={<App />} />
+      <Route
+        path='/' element={suspense(<App />)}
+      />
     </Routes>
   </BrowserRouter>
 )
