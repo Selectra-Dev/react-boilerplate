@@ -1,4 +1,4 @@
-import { reducerFactory } from '../../store/ReducerFactory'
+import { reducerFactory } from '@store/ReducerFactory'
 import {
   DECREMENT,
   INCREMENT
@@ -8,17 +8,13 @@ const initialState = {
   value: 0
 }
 
-const incrementHandler = ({ value }) => {
-  return {
-    value: value + 1
-  }
-}
+const incrementHandler = ({ value }) => ({
+  value: value + 1
+})
 
-const decrementHandler = ({ value }) => {
-  return {
-    value: value - 1
-  }
-}
+const decrementHandler = ({ value }) => ({
+  value: value - 1
+})
 
 const handlers = {
   [INCREMENT]: incrementHandler,

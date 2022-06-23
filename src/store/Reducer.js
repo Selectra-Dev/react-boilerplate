@@ -1,7 +1,6 @@
 import { combineReducers } from 'redux'
-import { reducer as counter } from '../features/counter'
+import { reducer as counter } from '@features/counter'
 
-export const createRootReducer = () =>
-  combineReducers({
-    counter
-  })
+export const rootReducer = combineReducers({
+  counter
+})

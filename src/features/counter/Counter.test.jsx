@@ -1,7 +1,7 @@
 import { fireEvent, render, screen } from '@testing-library/react'
 import { Provider } from 'react-redux'
 import Counter from './Counter'
-import store from '../../store/Store'
+import { store } from '@store/Store'
 
 describe('Counter', () => {
   beforeEach(() => {
@@ -11,6 +11,7 @@ describe('Counter', () => {
       </Provider>
     )
   })
+
   it('Should render counter', () => {
     expect(screen.getByText('Counter')).toBeTruthy()
   })
