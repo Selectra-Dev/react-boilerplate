@@ -17,7 +17,8 @@
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject",
-    "linter": "eslint ."
+    "linter": "eslint .",
+    "e2e": "npx cypress open"
   },
   "browserslist": {
     "production": [
@@ -47,8 +48,7 @@
       "plugin:cypress/recommended"
     ],
     "plugins": [
-      "react",
-      "cypress"
+      "react"
     ]
   }
 }
