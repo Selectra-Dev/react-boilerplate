@@ -35,12 +35,20 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^14.2.1",
+    "cypress": "^10.2.0",
     "react-app-rewire-alias": "^1.1.7",
     "react-app-rewired": "^2.2.1",
     "standard": "^17.0.0"
   },
   "eslintConfig": {
-    "extends": ["./node_modules/standard/eslintrc.json","plugin:jest/recommended"],
-    "plugins": ["react"]
+    "extends": [
+      "./node_modules/standard/eslintrc.json",
+      "plugin:jest/recommended",
+      "plugin:cypress/recommended"
+    ],
+    "plugins": [
+      "react",
+      "cypress"
+    ]
   }
 }
