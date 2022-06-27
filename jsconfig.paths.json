@@ -2,10 +2,11 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@features/*": ["src/features/*"],
-      "@root": ["src/"],
-      "@routes": ["src/routes/*"],
-      "@store": ["src/store/*"],
+        "@features/*": ["src/features/*"],
+        "@root": ["src/"],
+        "@routes": ["src/routes/*"],
+        "@store": ["src/store/*"],
+        "@library/*": ["library/src/*"]
     }
   }
 }
