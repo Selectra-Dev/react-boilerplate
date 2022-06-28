@@ -1,47 +1,99 @@
-# Getting Started with Create React App and Redux
+# Selectra React Redux Boilerplate 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+This application is a Boilerplate that should be used to create new React project<br/>
 
-## Available Scripts
+# Project Stack
 
-In the project directory, you can run:
+The entire project stack is kept updated to its latest versions.
 
-### `npm start`
+<table>
+  <tr>
+   <td>React + CRA
+   </td>
+   <td>
+   </td>
+   <td><a href="https://create-react-app.dev/">https://create-react-app.dev/</a>
+   </td>
+  </tr> 
+  <tr>
+   <td>React-testing-library
+   </td>
+   <td>
+    Used to create unit testing
+   </td>
+   <td><a href="https://testing-library.com/docs/react-testing-library/intro/">https://testing-library.com/docs/react-testing-library/intro/<a>
+   </td>
+  </tr>
+  <tr>
+   <td>Redux-toolkit 
+   </td>
+   <td>
+    Used to manage the global state of the application
+   </td>
+   <td><a href="https://redux-toolkit.js.org/usage/usage-guide">https://redux-toolkit.js.org/usage/usage-guide</a>
+   </td>
+  </tr>
+  <tr>
+   <td>Redux-persist 
+   </td>
+   <td>
+    Used to persist the state of the application into the localStorage
+   </td>
+   <td><a href="https://github.com/rt2zz/redux-persist">https://github.com/rt2zz/redux-persist</a>
+   </td>
+  </tr>
+   <tr>
+   <td>React-app-alias 
+   </td>
+   <td>
+    Used to create alias, so you can imports components like @components/*
+   </td>
+   <td><a href="https://github.com/oklas/react-app-alias">https://github.com/oklas/react-app-alias</a>
+   </td>
+  </tr>
+  </tr>
+   <tr>
+   <td>Cypress
+   </td>
+   <td>
+    Used to create e2e tests
+   </td>
+   <td><a href="https://docs.cypress.io/guides/getting-started/installing-cypress">https://docs.cypress.io/guides/getting-started/installing-cypress</a>
+   </td>
+  </tr>
+</table>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br/><br/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Instalation
 
-### `npm test`
+```
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm run start
+```
 
-### `npm run build`
+# Test:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm run test
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# e2e:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm run e2e
+```
 
-### `npm run eject`
+# Eslint:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm run linter
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br/><br/>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## This project is maintained by:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# React-Boilerplate
+[Rafael Puyol @Rafius](https://github.com/Rafius)
