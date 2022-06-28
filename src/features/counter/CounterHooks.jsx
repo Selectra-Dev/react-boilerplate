@@ -3,7 +3,7 @@ import { valueCounterSelector } from './CounterSelector'
 import {
   increment,
   decrement
-} from './CounterActions'
+} from './CounterSlice'
 
 const counterHooks = () => {
   const dispatch = useDispatch()
