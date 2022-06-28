@@ -1,4 +1,4 @@
-describe('empty spec', () => {
+describe('Counter spec', () => {
   it('Should go to the main page', () => {
     cy.visit('http://localhost:3000')
   })
